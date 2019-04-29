@@ -1,0 +1,144 @@
+.text-center .navbar {
+    height: 4em; 
+    font-size: 15px;
+}
+.brand_img {
+    width: 30px;
+    height: 30px;
+}
+.nav-item .nav-link {
+    color: black!important;
+}
+.nav-item a:hover{
+   opacity: .7;
+}
+.navbar-nav .nav-item {
+    margin-left: 1em;
+}
+.first_wraping_div {
+    height: 620px;
+    background-repeat: round;
+    background-image: url('https://s3-eu-west-2.amazonaws.com/theukdomain2017/uploads/2018/09/20113903/httpswww.theukdomain.ukcontribute-min-e1537440041970-1244x566.jpg');
+}
+.first_nested_div {
+    background: rgba(0, 0, 0, 0.6);
+    min-height:100%;
+    padding: 200px;
+}
+.first_nested_div h1 {
+    font-size: 2.2em;
+}
+.second_wraping_div {
+    background: url("https://freelancersintheuk.co.uk/wp-content/uploads/2016/04/twittercover-1.jpg");
+    background-size: cover;
+}
+.second_nested_div {
+    height: 500px;
+    background: rgba(255, 255, 255, 0.5);
+}
+.second_nested_div h1 { 
+    color: black;    
+}
+.second_nested_div .p01 {
+    color: black;
+    font-size: 1.5em;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    margin-top: 3em;
+}
+.second_nested_div .p02 {
+    color: black;
+    font-size: 1.5em;
+}
+.third_wraping_div {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5lDp3BWQI-iskoRGDG6M-DSNfcBxqqT0fwPppk4lwLuKERw-5");
+    background-repeat: round;
+    background-color: #F2EFDA;
+    background-size: cover;
+}
+body{
+    background-color: #F2EFDA;
+}
+.mt-0 {
+    margin-top: 5em !important;
+}
+.card:hover {
+    box-shadow: 5px 5px 30px black;
+}
+.fourth_wraping_div {
+    background: url("https://png.pngtree.com/thumb_back/fh260/back_pic/00/01/78/53560958ad94703.jpg");
+    background-size: cover;
+    background-repeat: round;
+}
+.fourth_nested_div {
+    background: rgba(0, 0, 0, 0.1);
+  padding: 3em 0em 4em 0em;
+
+}
+footer {
+    background: url("https://www.allureseo.com/wp-content/uploads/2018/04/professional-images-for-website-background-4.jpg");
+    background-repeat: round;
+    background-size: cover;
+}
+.footer_nested_div {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 6em 0em 10em 0em;
+}
+.fieldset_02 {
+    border: 2px solid white;
+}
+.legend_02 {
+    width: 23em;
+}
+.searchbar {
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+}
+.searchbar:hover {
+    background-color: #353b48;
+}
+.search_input {
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+}
+.searchbar:hover > .search_input {
+    padding: 0 10px;
+    width: 450px;
+    caret-color:white;
+    transition: width 0.4s linear;
+}
+.searchbar:hover > .search_icon {
+    background: white;
+    color: #e74c3c;
+}
+.search_icon {
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:black;
+}
+button {
+    border-radius: 3px;
+    border: none;
+    margin: 1em 0em 3em 0em;
+}
+button > a{
+    color: black;
+}
+.nested_footer {
+    background-color: #331E13;
+}
